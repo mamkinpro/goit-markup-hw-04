@@ -112,6 +112,8 @@ align-items: center;
   background-color: #2E2F42;
   padding-top:188px;
   padding-bottom:188px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url("../images/people-office.jpg")
+
 }
 .container-hero{
   margin-left: auto;
@@ -228,6 +230,9 @@ align-items: center;
     color: var(--primary-text-color);
     text-align:center;
 }
+.social-media-list{
+  display:flex;
+}
 .footer{
 
     background-color: var(--secondary-background-color);
@@ -244,6 +249,9 @@ align-items: center;
 display:block;
 width:264px;
 height:72px;
+}
+.social-media-footer-list{
+  display:flex;
 }
 .logo-footer{
   display: inline-block;
@@ -386,7 +394,24 @@ ul{
   flex-wrap: wrap;
   gap: 48px 24px;
 }
-.portolio-list-item{
+/*.portolio-list-item{
 
+  
+}
+*/
+.section-customers{
+  background-color:#2e2f42;
+}
+.social-list{
+  display:flex;
+}
+.customers-list-item-link{
+  display:block;
+  border-radius: 50%;
+  background-color:#fff;
+
+}
+.customers-list{
+  display: flex;
   
 }
