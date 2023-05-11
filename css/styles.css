@@ -253,6 +253,7 @@ height:72px;
 }
 .social-media-footer-list{
   display:flex;
+  gap:16px;
 }
 .logo-footer{
   display: inline-block;
@@ -400,6 +401,15 @@ ul{
   
 }
 */
+.container-advantages-icons{
+  padding:24px 100px;
+  background-color:var(--bg-color-btn-filter);
+  border-radius:4px;
+  
+}
+.advantages-icons{
+  
+}
 .social-media-list {
   display: flex;
   gap:24px;
@@ -453,5 +463,26 @@ ul{
 
 }
 .customers-list-icon{
-  fill:#AFB1B8;
+
+}
+.customers-list-icon{
+  fiil:#8E8F99;
+}
+
+.container-social-media-footer{
+  margin-left:120px;
+}
+.social-madia-header{
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#fff;
+    margin-bottom:16px;
+}
+
+
+
+.container-footer{
+  display: flex;
 }
